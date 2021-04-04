@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module Sentiment
+module Sentimental
   VERSION = "0.1.0"
 end

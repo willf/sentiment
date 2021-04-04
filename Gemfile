@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in sentiment.gemspec
+# Specify your gem's dependencies in sentimental.gemspec
 gemspec
 
 gem "rake", "~> 13.0"

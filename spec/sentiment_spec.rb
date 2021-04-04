@@ -1,20 +1,20 @@
 # frozen_string_literal: true
 
-RSpec.describe Sentiment do
+RSpec.describe Sentimental do
   it "has a version number" do
-    expect(Sentiment::VERSION).not_to be nil
+    expect(Sentimental::VERSION).not_to be nil
   end
 
   it "the Analyzer object exists" do 
-    expect(Sentiment::Analyzer).not_to be nil
+    expect(Sentimental::Analyzer).not_to be nil
   end
 
   it "the Sentiment object exists" do 
-    expect(Sentiment::Sentiment).not_to be nil
+    expect(Sentimental::Sentiment).not_to be nil
   end
 
   it "can load the english model" do
-    expect(Sentiment::Analyzer.new.loaded?).to be true
+    expect(Sentimental::Analyzer.new.loaded?).to be true
   end
 
   

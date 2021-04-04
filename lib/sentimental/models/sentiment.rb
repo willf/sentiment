@@ -1,4 +1,4 @@
-module Sentiment
+module Sentimental
 
     class Sentiment
 

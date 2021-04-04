@@ -5,7 +5,17 @@ RSpec.describe Sentiment do
     expect(Sentiment::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "the Analyzer object exists" do 
+    expect(Sentiment::Analyzer).not_to be nil
   end
+
+  it "the Sentiment object exists" do 
+    expect(Sentiment::Sentiment).not_to be nil
+  end
+
+  it "can load the english model" do
+    expect(Sentiment::Analyzer.new.loaded?).to be true
+  end
+
+  
 end

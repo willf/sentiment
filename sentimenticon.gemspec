@@ -3,7 +3,7 @@
 require_relative "lib/sentimenticon"
 
 Gem::Specification.new do |spec|
-  spec.name          = "Sentimenticon"
+  spec.name          = "sentimenticon"
   spec.version       = Sentimenticon::VERSION
   spec.authors       = ["Will Fitzgerald"]
   spec.email         = ["will.fitzgerald@pobox.com"]

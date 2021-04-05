@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Sentimental
+module Sentimenticon
 
 class Analyzer
 

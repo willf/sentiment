@@ -1,23 +1,23 @@
 # frozen_string_literal: true
 
-require_relative "lib/sentimental"
+require_relative "lib/sentimenticon"
 
 Gem::Specification.new do |spec|
-  spec.name          = "Sentimental"
-  spec.version       = Sentimental::VERSION
+  spec.name          = "Sentimenticon"
+  spec.version       = Sentimenticon::VERSION
   spec.authors       = ["Will Fitzgerald"]
   spec.email         = ["willf@github.com"]
 
-  spec.summary       = "Word level sentimental analyser."
-  spec.description   = "Word level sentimental analyser, currently English only"
-  spec.homepage      = "https://github.com/willf/sentimental."
+  spec.summary       = "Word level sentiment analyser."
+  spec.description   = "Word level sentiment analyser, currently English only"
+  spec.homepage      = "https://github.com/willf/sentimenticon_rb"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/willf/sentimental"
-  spec.metadata["changelog_uri"] = "https://github.com/willf/sentimental/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/willf/sentimenticon_rb"
+  spec.metadata["changelog_uri"] = "https://github.com/willf/sentimenticon_rb/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

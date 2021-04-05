@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sentimenticon (0.1.0)
+    Sentimenticon (0.1.0)
 
 GEM
   remote: https://rubygems.org/

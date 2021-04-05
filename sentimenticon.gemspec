@@ -6,10 +6,10 @@ Gem::Specification.new do |spec|
   spec.name          = "Sentimenticon"
   spec.version       = Sentimenticon::VERSION
   spec.authors       = ["Will Fitzgerald"]
-  spec.email         = ["willf@github.com"]
+  spec.email         = ["will.fitzgerald@pobox.com"]
 
-  spec.summary       = "Word level sentiment analyser."
-  spec.description   = "Word level sentiment analyser, currently English only"
+  spec.summary       = "Word level sentiment analyzer."
+  spec.description   = "Word level sentiment analyzer, currently English only"
   spec.homepage      = "https://github.com/willf/sentimenticon_rb"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   end
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ["lib", "data"]
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"

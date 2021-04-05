@@ -1,6 +1,7 @@
 module Sentimenticon
 
-
+    # Pubilc
+    # Sentiment object. See paper or data for details. The normed average in the normalized average.
     class Sentiment
 
     attr_accessor :word
@@ -12,6 +13,7 @@ module Sentimenticon
     attr_accessor :google
     attr_accessor :nyt
     attr_accessor :lyrics
+    
 
     def initialize(
         word:, 
@@ -19,7 +21,7 @@ module Sentimenticon
         normed_average:, 
         average:, 
         std:, 
-        witter:, 
+        twitter:, 
         google:, 
         nyt:, 
         lyrics:
@@ -32,7 +34,7 @@ module Sentimenticon
         @twitter = twitter
         @google = google
         @nyt = nyt
-        @lyrics = lryics
+        @lyrics = lyrics
     end
 
     end
